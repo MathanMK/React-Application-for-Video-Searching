@@ -1,0 +1,48 @@
+.video-item{
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+}
+
+
+.video-item.item  img{
+    max-width: 180px;
+}
+
+.input-group{
+    width: 40rem;
+}
+
+.search-bar{
+    position: relative;
+    justify-content: center;
+    margin-bottom: 8rem;
+    display: flex;
+    margin-top:2rem;
+    margin-left: 400px;
+    flex-direction: row;
+    max-width: 100vw;
+ 
+}
+
+.search-bar .item1{
+    position: relative;
+}
+
+.search-bar .item2{
+        /* height: 30px; */
+        margin: 0 6px;
+        color: aqua;
+        background-color: crimson;
+        width: 3rem;
+    }
+
+
+.logo-img{
+    width: 100px;
+    height:75px; 
+}
+
+.head{
+    display: flex;
+}
